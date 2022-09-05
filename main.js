@@ -1,13 +1,10 @@
 
+// two ways to loop thru an array
 
-let colors = ["red", "blue", "green", "black"];
+let sports = ["soccer", "basketball", "baseball"]
 
-for (let i = 0; i < colors.length; i++){
-    console.log(colors[i])
-    document.write(colors[i])
-}
+// the other way:
 
-for (let color of colors){
-    console.log(color)
-    document.write(color)
+for (let sport of sports){
+    document.write(sport)
 }
